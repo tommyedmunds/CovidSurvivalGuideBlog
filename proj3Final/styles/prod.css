@@ -1,0 +1,125 @@
+/* bold text, personalization */
+
+/* pexels, pixabay, freepik  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 200vh;
+  background-color: #255d6f;
+}
+
+.navbar-custom {
+  background-color: #255d6f;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  background-color: #255d6f;
+  color: white;
+}
+
+/* change the link color and padding  */
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+  padding: 0.75rem 1rem;
+}
+
+.custom-toggler.navbar-toggler {
+  color: white;
+}
+
+.introScreen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/4308052/pexels-photo-4308052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  min-height: 80vh;
+}
+
+.cont {
+  padding-top: 10rem;
+}
+
+.txt > h1 {
+  padding-top: 5rem;
+  font-size: 5rem;
+}
+
+.txt > h4 {
+  padding-top: 1rem;
+}
+
+.txt > p {
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.pic > img {
+  max-width: 150%;
+  max-height: 100%;
+  padding-right: 10rem;
+}
+
+.con2 {
+  padding-left: 2rem;
+}
+
+.below {
+  background-color: #255d6f;
+}
+
+.hide {
+  color: #255d6f;
+}
+
+.showing {
+  background-color: #255d6f;
+  color: white;
+  border-radius: 25px;
+  height: 10rem;
+}
+
+.con3 {
+  padding-top: 8%;
+}
+
+.showing > p {
+  text-align: left;
+  padding-top: 4%;
+}
+
+.final {
+  background-color: white;
+  height: 100vh;
+}
+
+.txt2 {
+  padding-top: 10%;
+}
+
+.zoomPic {
+  width: 100%;
+}
+
+.t {
+  color: white;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .final {
+    height: 60rem;
+  }
+
+  .txt2 {
+    padding-left: 4%;
+    padding-bottom: 5%;
+  }
+}
